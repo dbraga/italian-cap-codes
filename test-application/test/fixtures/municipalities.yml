@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  prefix: MyString
+  fiscal_code: MyString
+  cap: MyString
+  istat_code: MyString
+  district_id: 1
+
+two:
+  name: MyString
+  prefix: MyString
+  fiscal_code: MyString
+  cap: MyString
+  istat_code: MyString
+  district_id: 1
