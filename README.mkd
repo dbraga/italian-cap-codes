@@ -13,6 +13,12 @@ Here's a list of info about them:
 
 ## Set up
 - Clone the repo
+- Copy the seeds.rb file and the seeds folder in your db folder
+
+**Warning:** Do you already have seed files? 
+
+*Copy the seeds folder and append the content of the seeds.rb in your seed file.*
+
 - Run these generators:
 
 ```Ruby
