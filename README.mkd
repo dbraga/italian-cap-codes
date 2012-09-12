@@ -1,8 +1,11 @@
 # Italian-Cap-Codes
  
 ## Overview
-This repository is a collection of seed files and utilities on italian regions, districts and municipalities { Regioni, Province, Comuni }.
+This repository contains information about italian regions, districts (province) and municipalities (comuni).
+You can get the seed file(s) directly from this repo and add them to your Rails Project.
+## What you will get
+Here's a list of info you will get:
 Here's a list of info about them:
 - Region/Regioni : full name, short name
 - District/Provincia: full name, short name
-- Municipality/Comuni: name, cap, istat code, 
+- Municipality/Comuni: name, cap, istat cod
