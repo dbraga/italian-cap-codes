@@ -22,6 +22,24 @@ rails g model district short_name:string full_name:string region_id:integer
 
 rails g model municipality name:string prefix:string fiscal_code:string cap:string istat_code:string district_id:integer
 ```
+
+- Add to **models/region.rb** :
+
+```Ruby
+ has_many :districts
+```
+- Add to **models/district.rb** :
+
+```Ruby
+ belongs_to :region
+ has_many :municipalities
+```
+- Add to **models/municipality.rb** :
+
+```Ruby
+ belongs_to :district
+```
+
 - Migrate the db:
 
 ```Ruby
