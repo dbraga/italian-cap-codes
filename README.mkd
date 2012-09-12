@@ -14,6 +14,7 @@ Here's a list of info about them:
 ## Set up
 - Clone the repo
 - Run these generators:
+
 ```Ruby
 rails g model region short_name:string full_name:string
 
