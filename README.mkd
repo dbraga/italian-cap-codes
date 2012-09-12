@@ -56,3 +56,41 @@ rake db:migrate
 ```Ruby
 rake db:seed
 ```
+
+## Use it
+
+### Navigate relations
+
+- Open your terminal
+```Ruby
+rails c
+```
+- Select one region (for example the first)
+```Ruby
+region = Region.first
+```
+- Select one district inside that region (for example the first)
+```Ruby
+district = region.districts.first
+```
+- Select one municipality inside that district (for example the first)
+```Ruby
+municipality = district.municipalities.first
+```
+- Obtain information about that municipality
+```Ruby
+municipality.name
+municipality.cap
+municipality.fiscal_code
+municipality.istat_code
+```
+
+## Support
+
+- Bugs? Issues? use the [system tracker](https://github.com/dbraga/italian-cap-codes/issues) 
+- Suggestions? [email me](mailto:damiano.braga@gmail.com)
+- [Fork](https://github.com/dbraga/italian-cap-codes/fork) it, make it better and send me a pull request!
+ 
+## Author
+ 
+This product was developed by [*Damiano Braga*](https://github.com/dbraga).
