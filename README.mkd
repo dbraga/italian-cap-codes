@@ -7,9 +7,14 @@ You can get the seed file(s) directly from this repo and add them to your Rails 
 ## What you will get
 Here's a list of info you will get:
 Here's a list of info about them:
-- Region/Regioni : full name, short name
-- District/Provincia: full name, short name
-- Municipality/Comuni: name, cap, istat code, telephone prefix
+
+- **Region/Regioni** : full name, short name
+
+- **District/Provincia:** full name, short name
+
+- **Municipality/Comuni:** name, cap, istat code, telephone prefix
+
+You can also get this test application [ STILL IN DEVELOPMENT ]
 
 ## Set up
 - Clone the repo
