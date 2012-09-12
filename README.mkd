@@ -23,10 +23,12 @@ rails g model district short_name:string full_name:string region_id:integer
 rails g model municipality name:string prefix:string fiscal_code:string cap:string istat_code:string district_id:integer
 ```
 - Migrate the db:
+
 ```Ruby
 rake db:migrate
 ```
 - Seed your db:
+
 ```Ruby
 rake db:seed
 ```
