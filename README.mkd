@@ -1,5 +1,17 @@
 # Italian-Cap-Codes
- 
+
+<table>
+    <tr>
+        <th>Version</th>
+        <td>v0.1</td>
+    </tr>
+    <tr>
+        <th>Last Update</th>
+        <td>14 sept 2012</td>
+    </tr>
+</table>
+
+
 ## Overview
 This repository contains information about italian regions, districts (province) and municipalities (comuni).
 You can get the seed file(s) directly from this repo and add them to your Rails Project.
@@ -24,38 +36,8 @@ You can also get this test application [ STILL IN DEVELOPMENT ]
 
 *Copy the seeds folder and append the content of the seeds.rb in your seed file.*
 
-- Run these generators:
+- Copy the models in your model folder:
 
-```Ruby
-rails g model region short_name:string full_name:string
-
-rails g model district short_name:string full_name:string region_id:integer
-
-rails g model municipality name:string prefix:string fiscal_code:string cap:string istat_code:string district_id:integer
-```
-
-- Add to **models/region.rb** :
-
-```Ruby
- has_many :districts
-```
-- Add to **models/district.rb** :
-
-```Ruby
- belongs_to :region
- has_many :municipalities
-```
-- Add to **models/municipality.rb** :
-
-```Ruby
- belongs_to :district
-```
-
-- Migrate the db:
-
-```Ruby
-rake db:migrate
-```
 - Seed your db:
 
 ```Ruby
