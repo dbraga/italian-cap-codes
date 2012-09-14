@@ -7,7 +7,7 @@
     </tr>
     <tr>
         <th>Last Update</th>
-        <td>14 sept 2012></td>
+        <td>14 sept 2012</td>
     </tr>
 </table>
 
