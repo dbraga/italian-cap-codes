@@ -1,5 +1,17 @@
 # Italian-Cap-Codes
- 
+
+<table>
+    <tr>
+        <th>Version</th>
+        <td>v0.1</td>
+    </tr>
+    <tr>
+        <th>Last Update</th>
+        <td>14 sept 2012></td>
+    </tr>
+</table>
+
+
 ## Overview
 This repository contains information about italian regions, districts (province) and municipalities (comuni).
 You can get the seed file(s) directly from this repo and add them to your Rails Project.
